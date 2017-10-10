@@ -18,7 +18,7 @@ If you don't have it installed already, install and set up git.
 https://git-for-windows.github.io/
 
 
-Once Maven is set up, navigate to C:\ssn_qa\testSuites using command prompt and clone the testing suite repository using the command "git clone [LINK TO REPOSITORY]".  
+Navigate to C:\ssn_qa\testSuites using command prompt and clone the testing suite repository using the command "git clone [LINK TO REPOSITORY]".  
 
 Now open Eclipse.  When you first open it, you may be prompted to select your workspace.  If you are, set the workspace to C:\ssn_qa\testSuites\ and click OK.  Select the checkbox next to "Use this as the default and do not ask again" and click OK.  If not, this is already set and there's no action required.  Once Eclipse starts click the orange "Workbench" button in the top right and you'll be taken to the default Eclipse screen.  Right click  in the Package explorer and click on Import.  When in the select screen, find Maven, expand it, and select Existing Maven Projects.  Set the root directory to your recently cloned repository (C:\ssn_qa\testSuites\qa-automated-test-suites\) and click finish.  
 
