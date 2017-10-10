@@ -11,7 +11,7 @@ If you don't have it installed already, install and set up git.
 https://git-for-windows.github.io/
 
 Install Maven
-
+================
 The Maven files should already be in C:\ssn_qa\maven.  Add the environment variable MAVEN_HOME and set it to C:\ssn_qa\maven, then append %MAVEN_HOME\bin% to the end of the Path variable.  To check that both are correctly set, open command prompt and type mvn -version.  If the variables are set up correctly, you will get some output showing the version and where it's located.  
 
 Once Maven is set up, navigate to C:\ssn_qa\testSuites using command prompt and clone the testing suite repository using the command "git clone [LINK TO REPOSITORY]".  
