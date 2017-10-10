@@ -26,7 +26,7 @@ public class LoginPage {
 		System.setProperty("webdriver.chrome.driver","C:\\ssn_qa\\testSuites\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://screenmanager.qa.screenscape.com/screens");
+		driver.get("https://screenmanager.qa.screenscape.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
@@ -34,12 +34,6 @@ public class LoginPage {
 	public void verifyLoginPageTitle() throws InterruptedException {
 		buildLoginTests = new BuildLoginPageTestCases(driver);
 		buildLoginTests.verifyTitle();
-	}
-	
-	@Test(priority=1, dataProvider="login")
-	public void testLogin(String email, String password) throws InterruptedException {
-		buildLoginTests = new BuildLoginPageTestCases(driver);
-		buildLoginTests.testLoginAndLogout(email, password);
 	}
 	
 	@AfterTest
