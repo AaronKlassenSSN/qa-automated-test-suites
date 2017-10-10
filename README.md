@@ -5,7 +5,7 @@ Create a folder called ssn_qa on your C drive.
 
 Download and Extract the following zip file.  It contains most relevant files for setting up your local environment for automated test writing with Eclipse.
 
-https://drive.google.com/open?id=0B_W9HkAivGoRTnFxRGZVc3d6N2M  [PLACEHOLDER LINK, NEED TO REPLACE]
+https://drive.google.com/open?id=0B_W9HkAivGoRY2hxMFd2MG9tU28
 
 If you don't have it installed already, install and set up git.  
 https://git-for-windows.github.io/
